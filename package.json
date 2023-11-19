@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "app": "node index",
+    "mjs": "node test.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "msnodesqlv8": "^4.1.1",
+    "msnodesqlv8": "^4.1.2",
     "mssql": "^10.0.1"
   }
 }

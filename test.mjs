@@ -1,5 +1,7 @@
+import { createRequire } from 'module'
+import { runQuery } from "./query.js";
+const require = createRequire(import.meta.url)
 const mssql= require('mssql/msnodesqlv8')
-const {runQuery} = require("./query");
 const connectionString  = "Driver={ODBC Driver 17 for SQL Server};Server=(localdb)\\node;Database=scratch;Trusted_Connection=yes;"
 
 async function runner() {
@@ -10,5 +12,3 @@ async function runner() {
 runner().then(() => {
     console.log('done')
 })
-
-
