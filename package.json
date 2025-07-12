@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "msnodesqlv8": "file:../../v8/node_modules/msnodesqlv8/msnodesqlv8-5.0.0.tgz",
+    "msnodesqlv8": "^5.1.0",
     "mssql": "^11.0.1"
   }
 }
