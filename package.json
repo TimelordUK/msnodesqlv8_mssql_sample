@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "msnodesqlv8": "^5.2.1",
-    "mssql": "^12.6.0"
+    "msnodesqlv8": "^5.2.2",
+    "mssql": "^12.7.0"
   }
 }
